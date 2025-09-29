@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Azure Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h2>MyWebsite</h2>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="hero">
+            <h1>🚀 Welcome to My Azure Website!</h1>
+            <p>This Python Flask website is running on Azure App Service</p>
+            <a href="/about" class="btn">Learn More</a>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>⚡ Fast</h3>
+                <p>Built with Flask for lightning-fast performance</p>
+            </div>
+            <div class="feature-card">
+                <h3>☁️ Cloud-Powered</h3>
+                <p>Hosted on Microsoft Azure</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔧 Customizable</h3>
+                <p>Easy to modify and extend</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Azure Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
